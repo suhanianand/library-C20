@@ -16,9 +16,7 @@ function setup() {
 function draw() {
   background(0,0,0);  
 
-if(isTouching(fixedRect,movingRect)){
-  console.log(movingRect.y);
-}
+bouceOff(movingRect,FixedRect);
 
   drawSprites();
 }
