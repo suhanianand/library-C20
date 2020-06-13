@@ -16,7 +16,7 @@ function setup() {
 function draw() {
   background(0,0,0);  
 
-bouceOff(movingRect,FixedRect);
+bounceOff(movingRect,FixedRect);
 
   drawSprites();
 }
